@@ -1,24 +1,21 @@
-# frontend
+# Developing a Single Page App with FastAPI and Vue.js
 
-## Project setup
-```
-npm install
-```
+### Want to learn how to build this?
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+Check out the [post](https://testdriven.io/blog/developing-a-single-page-app-with-fastapi-and-vuejs).
 
-### Compiles and minifies for production
-```
-npm run build
+## Want to use this project?
+
+Build the images and spin up the containers:
+
+```sh
+$ docker-compose up -d --build
 ```
 
-### Lints and fixes files
-```
-npm run lint
+Apply the migrations:
+
+```sh
+$ docker-compose exec backend aerich upgrade
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Ensure [http://localhost:5000](http://localhost:5000), [http://localhost:5000/docs](http://localhost:5000/docs), and [http://localhost:8080](http://localhost:8080) work as expected.
