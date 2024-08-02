@@ -1,10 +1,10 @@
-# Developing a Single Page App with FastAPI and Vue.js
-
+# Desenvolvimento de um App com FastAPI, Vue.js e Docker
 ### Want to learn how to build this?
+### 
+Exercicio realizado conforme o seguinte [post](https://course.upiara.com/fasttrack/fastapi_and_vuejs/2docker_and_postgres/2docker_and_postgres/).
 
-Check out the [post](https://testdriven.io/blog/developing-a-single-page-app-with-fastapi-and-vuejs).
 
-## Want to use this project?
+## Como executar o projeto
 
 Build the images and spin up the containers:
 
@@ -18,4 +18,4 @@ Apply the migrations:
 $ docker-compose exec backend aerich upgrade
 ```
 
-Ensure [http://localhost:5000](http://localhost:5000), [http://localhost:5000/docs](http://localhost:5000/docs), and [http://localhost:8080](http://localhost:8080) work as expected.
+Verifique [http://localhost:5000](http://localhost:5000), [http://localhost:5000/docs](http://localhost:5000/docs), e [http://localhost:8080](http://localhost:8080) estão funcionando normalmente.
