@@ -6,13 +6,13 @@ Exercicio realizado conforme o seguinte [post](https://course.upiara.com/fasttra
 
 ## Como executar o projeto
 
-Build the images and spin up the containers:
+Construindo e executando os containers:
 
 ```sh
 $ docker-compose up -d --build
 ```
 
-Apply the migrations:
+Aplicando as migrações:
 
 ```sh
 $ docker-compose exec backend aerich upgrade
