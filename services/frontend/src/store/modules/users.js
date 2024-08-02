@@ -19,7 +19,7 @@ const actions = {
   },
   async logIn({dispatch}, user) {
     await axios.post('login', user);
-    return await dispatch('viewMe')
+    await dispatch('viewMe')
   },
   async viewMe({commit}) {
     let {data} = await axios.get('users/whoami');
