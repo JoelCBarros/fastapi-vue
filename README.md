@@ -1,5 +1,5 @@
 # Desenvolvimento de um App com FastAPI, Vue.js e Docker
-### Want to learn how to build this?
+### Como foi desenvolvido
 ### 
 Exercicio realizado conforme o seguinte [post](https://course.upiara.com/fasttrack/fastapi_and_vuejs/2docker_and_postgres/2docker_and_postgres/).
 
