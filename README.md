@@ -3,7 +3,6 @@
 ### 
 Exercicio realizado conforme o seguinte [post](https://course.upiara.com/fasttrack/fastapi_and_vuejs/2docker_and_postgres/2docker_and_postgres/).
 
-
 ## Como executar o projeto
 
 Construindo e executando os containers:
